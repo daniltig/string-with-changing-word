@@ -1,0 +1,33 @@
+#myDIV {
+	width: 100px;
+	height: auto;
+	left: 20px;
+	//background: red;
+	//position: absolute;
+	overflow: hidden;
+	z-index:3;
+	color: white;
+	border-right: 1px solid black;
+	transition: width 0.5s  linear;
+	font-size: 25px;
+	font-family: "times new roman";
+}
+
+#mainDIV{
+	width: auto;
+	height: auto;
+	left: 20px;
+	//border: 1px solid black;
+	background: #1D7373;
+
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+.LRdiv{
+	height: auto;
+	width: auto;
+	color: #FF7400;
+	font-size: 25px;
+	font-family: "times new roman";
+}
